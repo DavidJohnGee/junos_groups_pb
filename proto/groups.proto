@@ -1,0 +1,8 @@
+// This file contains ISIS_Metric_Data proto data
+syntax = "proto2";
+
+message GROUPS {
+  required string name = 1;
+  required bool bgpdisable = 2;
+  required bool isishigh = 3;
+}
